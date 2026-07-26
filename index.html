@@ -928,6 +928,37 @@
   @media (min-width:1200px){
     .section{padding:128px 0;}
   }
+  .precos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.precos h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.precos-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.preco-card {
+    background: #111;
+    padding: 30px;
+    width: 280px;
+    border-radius: 15px;
+}
+
+.preco-card h3 {
+    color: #d4af37;
+}
+
+.preco-card strong {
+    font-size: 25px;
+}
 </style>
 </head>
 <body>
@@ -1592,6 +1623,33 @@
         <img src="imagens//corte4.jpg" alt="Corte masculino">
 
     </div>
+</section>
+<section class="precos">
+
+    <h2>Nossos Serviços</h2>
+
+    <div class="precos-container">
+
+        <div class="preco-card">
+            <h3>Corte Clássico</h3>
+            <p>Corte moderno com acabamento perfeito</p>
+            <strong>2.500 Kz</strong>
+        </div>
+
+        <div class="preco-card">
+            <h3>Corte + Barba</h3>
+            <p>Corte completo para um visual elegante</p>
+            <strong>4.000 Kz</strong>
+        </div>
+
+        <div class="preco-card">
+            <h3>Experiência Premium</h3>
+            <p>Corte, barba e tratamento especial</p>
+            <strong>5.000 Kz</strong>
+        </div>
+
+    </div>
+
 </section>
 </body>
 </html>
