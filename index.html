@@ -39,7 +39,29 @@
   "sameAs": []
 }
 </script>
+.galeria {
+    padding: 50px 20px;
+    text-align: center;
+}
 
+.galeria h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria-container img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
 <style>
   /* ============ TOKENS ============ */
   :root{
@@ -1559,6 +1581,17 @@
 
 })();
 </script>
+<section class="galeria">
+    <h2>Galeria de Cortes</h2>
 
+    <div class="galeria-container">
+
+        <img src="imagens/corte1.jpg" alt="Corte masculino">
+        <img src="imagens/corte2.jpg" alt="Corte masculino">
+        <img src="imagens/corte3.jpg" alt="Corte masculino">
+        <img src="imagens//corte4.jpg" alt="Corte masculino">
+
+    </div>
+</section>
 </body>
 </html>
